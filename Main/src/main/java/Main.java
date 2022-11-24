@@ -15,10 +15,11 @@ public class Main {
 
 //        System.out.println(persona2.getNombre());
 
-        Persona p = new Persona("John", "Doe", "20");
+        ControlesFlujo controlesFlujo = new ControlesFlujo();
+        //controlesFlujo.evaluarEdad(10);
+        //controlesFlujo.evaluarEdad(20);
 
-
-
-
+        //controlesFlujo.evaluarEdad(10);
+        controlesFlujo.whileCiclo(1);
     }
 }

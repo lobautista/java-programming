@@ -1,5 +1,4 @@
 import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
 
 public class Persona {
     private String nombre;
@@ -40,7 +39,7 @@ public class Persona {
         this.nombre = nombre;
         this.appellido = apellido.toString();
 
-        int edadConstructor = Double.(edad);
+        int edadConstructor = Integer.parseInt(edad);
         System.out.println(edadConstructor);
 
     }
